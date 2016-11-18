@@ -1,0 +1,45 @@
+body {
+    background-image: url("images/blur.PNG");
+    background-size:  100% 820px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+}
+h1{
+    color: whitesmoke;
+}
+button{
+    flex-grow: 1;
+    margin: 0 2px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+    font-weight: bold
+}
+button:active{
+    box-shadow: none;
+}
+.start{
+    background-color: lightgreen;
+    border: none;
+    }
+.start:hover{
+    color: green;
+}
+.stop{
+    background-color: indianred;
+    border: none;
+}
+.stop:hover{
+    color: red;
+}
+.reset{
+    background-color: lightblue;
+    border: none;
+}
+.reset:hover{
+    color: blue;
+}
